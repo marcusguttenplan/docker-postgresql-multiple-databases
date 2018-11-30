@@ -15,6 +15,13 @@ mechanism.
 
 ## Usage
 
+```
+git clone <this-repo> db
+docker build db -t db #tag the built image to find it better
+docker run -t dev-db -e POSTGRES_MULTIPLE_DATABASES="db-dev","db-test","db-prod" ......
+```
+
+
 ### By mounting a volume
 
 Clone the repository, mount its directory as a volume into
