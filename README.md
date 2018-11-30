@@ -15,6 +15,8 @@ mechanism.
 
 ## Usage
 
+Quickly refactored to use the same user with multiple databases, for deploying a Rails application quickly.
+
 ```
 git clone <this-repo> db
 docker build db -t db #tag the built image to find it better
